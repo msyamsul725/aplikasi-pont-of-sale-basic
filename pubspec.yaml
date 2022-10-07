@@ -8,12 +8,14 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.17.0
+  disk_space: ^0.2.1
   google_fonts: ^2.1.0
-  file_picker: ^3.0.1
-  file_picker_cross: ^4.3.2
+  file_picker: ^4.5.1
+  file_picker_cross: ^4.6.0
   flutter_image_compress: ^1.1.1
   path_provider: ^2.0.1
   uuid: ^3.0.4 
+  google_sign_in: ^5.4.1
   # UI KIT Packages
   flutter_rating_bar: ^4.0.0
   flutter_colorpicker: ^1.0.3
@@ -32,6 +34,7 @@ dependencies:
   sliding_up_panel:
   flutter_svg:
   image_picker:
+  curved_navigation_bar: ^1.0.3
 
   # FIREBASE
   firebase_core: #ignore
@@ -40,6 +43,10 @@ dependencies:
 
   # STATE MANAGEMENT
   get:
+  share_plus_web: ^3.0.0
+  
+  file_selector_web: ^0.8.1+5
+  package_info_plus_web: ^1.0.5
 
 dev_dependencies:
   flutter_test:

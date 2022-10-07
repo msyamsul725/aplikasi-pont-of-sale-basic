@@ -53,10 +53,9 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA5ySyAFAohJWesDG32FvB0L7JW18i7k8U',
-    appId: '1:980120019445:android:b1d020aada02716ee340bc',
-    messagingSenderId: '980120019445',
-    projectId: 'fir-berandal',
-    storageBucket: 'fir-berandal.appspot.com',
+    apiKey: 'AIzaSyAr1ZqIGSkscR83RMZxWDsSXCuZqDvnXvo',
+    appId: '1:252020244760:android:7dcdced1302f441b4f5e6d',
+    messagingSenderId: '252020244760',
+    projectId: 'hymob-bb9b4',
   );
 }

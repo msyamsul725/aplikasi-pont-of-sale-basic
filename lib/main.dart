@@ -1,22 +1,19 @@
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hyper_ui/core.dart';
-import 'package:flutter_hyper_ui/setup.dart';
+import 'package:flutter_hyper_ui/firebase_options.dart';
+import 'package:flutter_hyper_ui/shared/util/theme/theme.dart';
 import 'package:get/get.dart';
 
 void main() async {
-  await initialize();
+  WidgetsFlutterBinding.ensureInitialized();
 
-  Widget mainView = Container();
-  if (FirebaseAuth.instance.currentUser != null) {
-    mainView = Container();
-  }
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
-  runApp(
-    GetMaterialApp(
+  return runApp(GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: defaultTheme,
-      home: mainView,
-    ),
-  );
+      home: const LoginView()));
 }

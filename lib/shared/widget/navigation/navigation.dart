@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hyper_ui/core.dart';
+
+import '../../util/theme/theme_constants.dart';
 
 class NavigationItem {
   final String? label;

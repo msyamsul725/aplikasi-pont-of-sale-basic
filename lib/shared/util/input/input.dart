@@ -1,4 +1,4 @@
-import 'package:flutter_hyper_ui/core.dart';
+import '../../widget/abstract/input_control/input_control.dart';
 
 class Input {
   static Map<String, dynamic> values = {};

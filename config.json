@@ -1,4 +1,18 @@
 {
     "state_management": "getx",
-    "modules": []
+    "modules": [
+        "Login",
+        "Register",
+        "Dashboard",
+        "Favorite",
+        "Profile",
+        "MainNavigation",
+        "Product",
+        "Pos",
+        "Order",
+        "Edit_Profile",
+        "Product_form",
+        "pos_checkout",
+        "detail_product"
+    ]
 }

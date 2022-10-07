@@ -3,12 +3,14 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:file_picker_cross/file_picker_cross.dart';
-import 'package:flutter_hyper_ui/core.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:path/path.dart' as path;
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
+
+import '../../util/input/input.dart';
+import '../abstract/input_control/input_control.dart';
 
 FilePickerCross? pickedFileInImagePicker;
 FilePickerResult? filePickerResult;

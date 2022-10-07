@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hyper_ui/core.dart';
+import 'package:flutter_hyper_ui/shared/util/theme/theme_constants.dart';
 
 class ExButton extends StatelessWidget {
   final String? label;
@@ -103,7 +103,7 @@ class ExButton extends StatelessWidget {
         onPressed: () => onPressed(),
         style: ElevatedButton.styleFrom(
           shadowColor: useShadow == true ? null : Colors.transparent,
-          primary:
+          backgroundColor:
               getColor(context) ?? primaryColor, //background color of button
           side: outline == false
               ? null
